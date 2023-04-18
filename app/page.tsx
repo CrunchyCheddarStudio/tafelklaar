@@ -28,10 +28,33 @@ export default function Home() {
         {/* HEADER RESTAURANT PAGE */}
         <div className="h-96 overflow-hidden">
           <div className="bg-center bg-gradient-to-r from-[#3766df] to-[#41517e] h-full flex justify-center items-center">
-            <h1 className="md:text-7xl text-1xl text-white capitalize text-shadow text-center">'T Populierenhof (Hulste)</h1>
+            <h1 className="md:text-7xl text-1xl text-white capitalize text-shadow text-center">
+              'T Populierenhof (Hulste)
+            </h1>
           </div>
         </div>
         {/* HEADER RESTAURANT PAGE */}
+        {/* DESCRIPTION PORTION */}
+        <div className="flex m-auto w-2/3 justify-between items-start 0 -mt-11">
+          <div className="bg-white w-[70%] rounded p-3 shadow">
+            {/* RESTAURANT NAVBAR */}
+            <nav className="flex text-reg border-b pb-2 text-black font-bold">
+              <a href="" className="mr-7">
+                Overzicht
+              </a>
+              <a href="" className="mr-7">
+                Menu
+              </a>
+            </nav>
+            {/* RESTAURANT NAVBAR */}
+            {/* TITLE */}
+            <div className="mt-4 border-b pb-6 text-black">
+              <h1 className="font-bold md:text-6xl text-1xl">'T Populierenhof</h1>
+            </div>
+            {/* TITLE */}
+          </div>
+        </div>
+        {/* DESCRIPTION PORTION */}
       </main>
     </main>
   );
