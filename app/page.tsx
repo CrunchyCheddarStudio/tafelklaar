@@ -36,17 +36,30 @@ export default function Home() {
         {/* HEADER RESTAURANT PAGE */}
         {/* DESCRIPTION PORTION */}
         <div className="flex m-auto w-2/3 justify-between items-start 0 -mt-11">
-        <div className="bg-white w-[100%] rounded p-3 shadow">
-          {/* RESTAURANT NAVBAR */}
-          <nav className="flex text-reg border-b pb-2 text-black font-bold">
-            <a href="" className="mr-7">
-              Overzicht
-            </a>
-            <a href="" className="mr-7">
-              Menu
-            </a>
-          </nav>
-          {/* RESTAURANT NAVBAR */}
+          <div className="bg-white w-[100%] rounded p-3 shadow">
+            {/* RESTAURANT NAVBAR */}
+            <nav className="flex text-reg border-b pb-2 text-black font-bold">
+              <a href="" className="mr-7">
+                Overzicht
+              </a>
+              <a href="" className="mr-7">
+                Menu
+              </a>
+            </nav>
+            {/* RESTAURANT NAVBAR */}
+            {/* MENU */}
+            <main className="bg-white mt-5">
+              <div>
+                <div className="mt-4 pb-1 mb-1">
+                  <h1 className="font-bold text-4xl text-black">Menu</h1>
+                </div>
+                <div className="flex flex-wrap justify-between">
+                  {/* MENU CARD */}
+                  {/* MENU CARD */}
+                </div>
+              </div>
+            </main>
+            {/* MENU */}
           </div>
         </div>
         {/* DESCRIPTION PORTION */}
