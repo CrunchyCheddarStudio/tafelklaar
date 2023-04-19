@@ -147,6 +147,24 @@ export default function Home() {
             </div>
             {/* REVIEWS */}
           </div>
+          {/* RESERVATION CARD */}
+          <div className="w-[27%] relative text-reg">
+            <div className="fixed w-[15%] bg-white rounded p-3 shadow">
+              <div className="text-center text-black border-b pb-2 font-bold">
+                <h4 className="mr-7 text-lg">Reserveer nu</h4>
+              </div>
+              <div className="my-3 flex flex-col text-black">
+                <label htmlFor="">
+                  Aantal Personen
+                </label>
+                <select name="" className="py-3 border-b font-light bg-white" id="">
+                  <option value="">1 persoon</option>
+                  <option value="">2 personen</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          {/* RESERVATION CARD */}
         </div>
         {/* DESCRIPTION PORTION */}
       </main>
