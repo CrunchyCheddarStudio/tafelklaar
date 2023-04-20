@@ -35,12 +35,12 @@ export default function RestaurantMenu(){
         <div className="bg-white w-[100%] rounded p-3 shadow">
           {/* RESTAURANT NAVBAR */}
           <nav className="flex text-reg border-b pb-2 text-black font-bold">
-            <a href="" className="mr-7">
+          <Link href="/restaurant/tpopulierenhof" className="mr-7">
               Overzicht
-            </a>
-            <a href="" className="mr-7">
+            </Link>
+            <Link href="/restaurant/tpopulierenhof/menu" className="mr-7">
               Menu
-            </a>
+            </Link>
           </nav>
           {/* RESTAURANT NAVBAR */}
           {/* MENU */}
