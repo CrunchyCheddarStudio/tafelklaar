@@ -1,25 +1,12 @@
 import Link from "next/link";
+import NavBar from "../components/NavBar";
 
 export default function Search(){
     return(
         <main className="bg-gray-100 min-h-screen w-screen">
     <main className="max-w-screen-2xl m-auto bg-white">
       {/* NAVBAR */}
-      <nav className="bg-white p-2 flex justify-between">
-      <Link href="/" className="font-bold text-gray-700 text-2xl">
-          Tafel Klaar
-        </Link>
-        <div>
-          <div className="flex">
-            <button className="bg-blue-400 text-white border p-1 px-4 rounded mr-3">
-              Log in
-            </button>
-            <button className="text-black border p-1 px-4 rounded">
-              Log uit
-            </button>
-          </div>
-        </div>
-      </nav>
+        <NavBar />
       {/* NAVBAR */}
       {/* HEADER */}
       <div className="bg-gradient-to-r to-[#3766df] from-[#41517e] p-2">
