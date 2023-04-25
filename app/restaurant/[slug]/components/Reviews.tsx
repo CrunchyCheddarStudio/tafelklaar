@@ -5,7 +5,6 @@ function Reviews() {
         Wat vinden 100 personen van dit restaurant
       </h1>
       <div>
-        {/* REVIEW CARD */}
         <div className="border-b pb-7 mb-7">
           <div className="flex">
             <div className="w-1/6 flex flex-col items-center">
@@ -30,7 +29,6 @@ function Reviews() {
             </div>
           </div>
         </div>
-        {/* REVIEW CARD */}
       </div>
     </div>
   );
